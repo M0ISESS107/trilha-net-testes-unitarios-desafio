@@ -4,6 +4,7 @@ namespace TestesUnitarios.Desafio.Console.Services
     {
         public int RetornarQuantidadeCaracteres(string texto)
         {
+            //estudar depois variavel tipo var
             var numeroCaracteres = texto.Length;
             return numeroCaracteres;
         }
